@@ -17,11 +17,7 @@ export const metadata: Metadata = {
   description:
     "eGov Access is your go-to platform for seamless access to Nigerian Government services and efficient  communication with the Plateau State Government.",
   icons: {
-    icon: [
-      {
-        url: "/favicon.ico",
-      },
-    ],
+    icon: "/favicon.svg",
   },
   manifest: "/manifest.json",
   verification: { google: "hS4vQ7NbMeaP-FFOg9wQF3ouO44MU8xXpmBAPTnqif4" },
