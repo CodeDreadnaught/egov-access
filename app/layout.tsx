@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
+  openGraph: {
+    images: "/pwa-192x192.png",
+  },
   manifest: "/manifest.json",
   verification: { google: "hS4vQ7NbMeaP-FFOg9wQF3ouO44MU8xXpmBAPTnqif4" },
 };
