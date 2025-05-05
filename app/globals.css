@@ -115,8 +115,24 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    /* outline: 1px solid red */
+  }
+  html {
+    @apply scroll-smooth
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  body::-webkit-scrollbar { @apply hidden}
+
+}
+
+@layer utilities {
+  .center { @apply grid place-items-center }
+
+  .scrollbar-hidden::-webkit-scrollbar { 
+    @apply hidden;
+    scrollbar-width: none;
   }
 }
