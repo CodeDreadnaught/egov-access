@@ -1,7 +1,7 @@
+import { redirect } from "next/navigation";
+
 const Home = () => {
-  return (
-    <div className="h-screen center font-medium animate-pulse">EGov Access</div>
-  );
+  return redirect("https://e-gov-access.vercel.app");
 };
 
 export default Home;
